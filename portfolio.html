@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live Resume :: Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/live-resume.css">
+</head>
+
+<body>
+    <header>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><a href="mailto:mnerren@gmail.com" target="_blank" class="xxbtn xxbtn-primary">Email me!</a></button>
+        <nav class="collapsible-nav" id="collapsible-nav">
+            <a href="index.html" class="nav-link">HOME</a>
+            <a href="resume.html" class="nav-link">RESUME</a>
+            <a href="portfolio.html" class="nav-link active">PORTFOLIO</a>
+            <!-- <a href="contact.html" class="nav-link">CONTACT</a> -->
+        </nav>
+        <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
+            data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
+    </header>
+    <div class="content-wrapper">
+        <aside>
+            <div class="profile-img-wrapper">
+                <img src="https://raw.githubusercontent.com/gitcyco/Documents/main/headshot.jpg" alt="profile">
+            </div>
+            <h1 class="profile-name">Micah Nerren</h1>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <p>Full Stack</p>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <nav class="social-links">
+                <a href="https://twitter.com/cycoder" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/micah-nerren/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://angel.co/u/micah-nerren" class="social-link"><i class="fab fa-angellist"></i></a>
+                <a href="https://github.com/gitcyco" class="social-link"><i class="fab fa-github"></i></a>
+            </nav>
+            <div class="widget">
+                <h5 class="widget-title">personal information</h5>
+                <div class="widget-content">
+                    <p>WEBSITE : <a href="https://github.com/gitcyco">Github</a></p>
+                    <p>PHONE : +1 657 319 5261</p>
+                    <p>MAIL : <a href="mailto:mnerren@gmail.com" target="_blank" class="">mnerren@gmail.com</a></p>
+                    <p>Location : Fullerton, California</p>
+                    <!-- <button class="btn btn-download-cv btn-primary rounded-pill"> <img src="assets/images/download.svg" alt="download"
+                        class="btn-img">DOWNLOAD CV</button> -->
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">INTERESTS</h5>
+                        <p>Tinkering</p>
+                        <p>Esoteric Code</p>
+                        <p>DIY Electronics</p>
+                        <p>Making things work</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="portfolio-section">
+                <h2 class="section-title">PORTFOLIO</h2>
+                
+                <div class="portfolio-wrapper">
+                    <figure class="portfolio-item hover-box">
+                        <a href="https://github.com/gitcyco/nand-how">
+                            <img src="assets/images/nand-how-front.png" alt="project" class="portfolio-item-img">
+                            <figcaption class="portfolio-item-details overlay">
+                                <h5 class="portfolio-item-title">NAND How!</h5>
+                                <p class="portfolio-item-description">Learn how computers really work</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/entry/jq.entry.min.js"></script>
+    <script src="assets/js/live-resume.js"></script>
+</body>
+
+</html>
